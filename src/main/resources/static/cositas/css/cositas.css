@@ -1,0 +1,515 @@
+@font-face
+{
+	font-family : "CraftyGirls";
+	src: url('/cositas/fonts/CraftyGirls.ttf');
+}
+html 
+{
+	font-family:			CraftyGirls !important;
+	height:					100%;
+	font-size: 				13px;
+	color:					#000000;
+}
+body
+{ 
+	height:					100%; 
+	margin:					0;
+	padding:				0;
+}
+#welcome
+{
+	text-align:				center;
+	left:					0px;
+	position: 				relative;
+	height:					100%;
+	width:					100%;
+	border:					0px solid red;
+	background:				#3D6376 url("/cositas/images/estrellas.png");
+	vertical-align: 		middle;
+	overflow: 				hidden;
+}
+#welcome #welcomefloater
+{ 
+		border:				0px solid red;
+		margin-top: 			auto;
+		margin-bottom: 			auto;
+		position: 			relative;	
+		vertical-align: 		middle;
+		overflow: 				hidden;
+
+}
+#welcome #welcomefloater img
+{
+	border:					0px;
+}
+#welcome #spacewelcome1
+{
+	position: 				relative;
+	width: 					100%;
+	height: 				10%;
+}
+#page
+{
+	position:				absolute;
+	top:					0px;
+	left:					0px;
+	width:					100%;
+	border:					0px none orange;
+	background: 			transparent url("/cositas/images/fondo.png");
+	margin:					0;
+}
+
+#floater 
+{
+	position: 				relative; 
+	float: 					left; 
+	height: 				50%; 
+	width: 					50%;
+	border: 				0px solid red;
+	margin-bottom:			-384px;
+}
+#content
+{ 
+	 
+	position: 				relative; 
+	margin: 				0 auto; 
+	clear:					both;
+	border: 				0px solid blue; 
+	background-color: 		transparent; 
+	text-align: 			center; 
+	vertical-align: 		middle; 
+	color: 					orange; 
+	width: 					90%;
+}
+#topdiv
+{
+	background-color:		#FFF8AF;
+	position: 				relative; 
+	border: 				0px solid lightgreen; 
+	width:					100%;
+	height: 				120px; 
+	z-index:				15;
+	margin: 				0;
+	width:					100%;
+	text-align:				left;
+}
+#topdiv img
+{
+	border:					0px;
+	margin:					0px;
+	text-align:				left;
+	height: 				120px; 
+	width:					710px;
+}
+#space1
+{
+	position: 				relative;
+	border: 				0px solid lightgreen; 
+	width:					100%;
+	height: 				20px; 
+	margin: 				0;
+}
+#space2
+{
+	position: 				relative;
+	border: 				0px solid lightgreen; 
+	width:					100%;
+	height: 				20px; 
+	margin: 				0;
+	
+}
+#space3
+{
+	position: 				relative;
+	border: 				0px solid lightgreen; 
+	width:					100%;
+	height: 				50px; 
+	margin: 				0;
+	
+}
+
+/************************************/
+/*		LAYOUT						*/
+/************************************/
+#contentbody
+{
+	position: 				relative;
+	/*height:					500px;*/
+	border:					10px solid #AC749C;
+	background:				#3D6376 url("/cositas/images/estrellas.png");	
+}
+#central
+{
+	left:					0%;
+	position: 				relative;
+	width:					100%;
+	height:					100%;
+	border:					0px dotted yellow;
+	background:				#3D6376 url("/cositas/images/estrellas.png");
+}
+#div rgal
+{
+	position:				relative;
+	width:					100%;
+	height:					60%;
+	left:					0;
+	top:					0;
+	border:					0px solid green; 
+	vertical-align:				middle;
+	text-align:				center;
+}
+#divgallery
+{
+	position:					absolute;
+	width:						98% !important;
+	height:						98% !important;
+	top:						0px;
+	margin-left:					1% !important;
+	border:						0px solid red;
+	
+
+}
+#divgallery h1
+{
+	color:					#E00D31;
+	font-size:				30px;
+	margin:					0px;
+	background-color:				#FFF8AF;
+	opacity:					0.3;
+	
+}
+#divgallery h1 div
+{
+	opacity:					1 !important;
+	
+}
+	
+/************************************/
+/*		MENU IZQ					*/
+/************************************/
+#menuizq
+{
+	left:					0px;
+	position: 				absolute;
+	height:					500px;
+	width:					30%;
+	border:					0px dotted red;
+	background:				#3D6376 url("/cositas/images/estrellas.png");
+}
+#menucosita
+{
+	position:				relative;
+	border:					0px solid orange;
+	margin:					0px;
+	padding:				0px;
+	width:					100%;
+	height:					59px;	
+	background-color:			!transparent;	
+	overflow:				hidden;	
+	text-align:				center;
+	center;
+	
+}
+#menucosita #menucositait
+{
+	position:				relative;	
+	float:					left;
+	border:					0px solid orange;
+	margin:					0px;
+	padding:				0px;
+	width:					177px;	
+	height:					59px;	
+	display:				block;
+	overflow:				hidden;
+	
+}
+#menucosita #menucositait form
+{
+	border:					0px solid orange;
+	margin:					0px;
+	padding:				0px;
+}
+
+#menucosita #menucositait form input
+{
+	border:					0px solid orange;
+	margin:					0px;
+	padding:				0px;
+	width:					177px;	
+	height:					59px;	
+
+}
+/************************************/
+/*		FOOTER					*/
+/************************************/
+#divfootercontent
+{
+	border:					0px solid orange;
+	text-align:				right;
+	vertical-align:				middle;
+	
+}
+ #divfootercontent a
+ {
+ 	font-size:				20px;
+ 	color:					#AC749C;
+ 	text-decoration:			none;
+ 	vertical-align:				middle;
+ 	border:					0px;
+ 	
+ }
+ #divfootercontent a label
+ {
+ 	font-size:				20px;
+ 	color:					#AC749C;
+ 	text-decoration:			none;
+ 	vertical-align:				middle;
+ 	top:					0px;
+ 	
+ }
+  #divfootercontent a img
+  {
+  	font-size:				20px;
+  	color:					#AC749C;
+  	text-decoration:		none;
+  	vertical-align:			middle;
+  	border:					0px;
+  	
+ }
+#divramita
+{
+	background: 			transparent url("/cositas/images/ramitas.png") no-repeat bottom;
+	position: 				relative; 
+	border: 				0px solid lightgreen; 
+	width:					100%;
+	height: 				60px; 
+	z-index:				15;
+	margin: 				0;
+}
+/********************************/
+/*		hometext				*/
+/********************************/
+#divhometext
+{
+	border:					0px solid orange;
+	margin:					0px;
+	padding:				0px;
+	width:					100%;
+	height:					100%;
+	margin-left:			5%;	
+	margin-bottom:			5%;
+	margin-top:				5%;
+	
+}
+#divhometext #divhometextcontent
+{
+	background-color: 		#FFF8AF;
+	border:					0px solid orange;	
+	padding:				0px;
+	text-align: 			center; 
+	height: 				90%;
+	width:					90%;		
+}
+#divhometext #divhometextcontent ul
+{
+	width: 					90%;
+	text-align: 				center;
+	border:					0px solid orange;
+	margin:					0px;
+	list-style: 				none;
+	color:					#325CA6;
+	font-size:				30px;
+}
+#divhometext #divhometextcontent ul p
+{
+	border:					0px solid orange;	
+	color:					#000000;
+	font-size:				20px;
+	text-align: 				justify;
+	margin:					0 10 0 10;
+	width:					100%;
+}
+#divacercatit
+{
+	top:						0%;
+	left: 						0%;
+	width:						100%;
+	height:						5%;
+}
+#divacercabody
+{
+	margin-top:					5%;
+	margin-bottom:			5%;
+	left: 						0%;
+	width:						90%;
+	height:						90%;
+	color:						#000000;
+	border:						0px none;
+	margin-left:				5%;
+	text-align: 				justify;
+	background-color:			#AC749C;
+	border:						0px none;
+	overflow: 					hidden;
+}
+#divacercabody #ultit
+{
+	width: 					90%;
+	text-align: 				center;
+	border:					0px solid orange;
+	margin:					0px;
+	list-style: 				none;
+	color:					#325CA6;
+	font-size:				30px;
+}
+#divacercascroll
+{
+	top:						5%;
+	left: 						95%;
+	width:						5%;
+	height:						90%;
+	position: 					absolute;
+}
+#divacercascrollint
+{
+	position:absolute;
+	top:	5%;
+	height: 90%;
+}
+
+#divacercabody p
+{
+	margin-top: 			0px;
+	margin-left: 			5px;
+	margin-right: 			5px;
+}
+	
+#divacercabody p img
+{
+	margin-top: 			1px;
+	margin-left: 			5px;
+	margin-right: 			5px;
+}
+#divacercabody ul
+{
+	width:					100%;
+	margin-left: 			5px;
+	margin-right: 			5px;	
+	list-style: 			disc inside none;
+}
+.ui-slider-vertical .ui-slider-handle
+{
+	background-image:		url("/cositas/images/bug.png");
+	background-color:		transparent;
+	width: 					25px;
+	height: 				25px;
+	outline: 				none;
+	border: 				0px;
+	
+}
+
+.ui-slider-vertical .ui-widget-header
+{
+	background: 		#FFF8AF;
+}
+	
+	
+/********************************/
+/*		contacto	*/
+/********************************/
+#divcontacto
+{
+	border:					0px solid orange;
+	margin:					0px;
+	padding:				0px;
+	width:					100%;
+	height:					100%;
+	top:					5%;
+	left:					5%;
+
+}
+#divcontacto #divcontactocontent
+{
+	margin-top:					5%;
+	margin-left:					5%;
+margin-bottom:5%;
+
+	width:					90%;
+	background-color: 			#FFF8AF;
+	border:					0px solid orange;
+	padding:				0px;
+	text-align: 				center; 
+	height: 				90%;
+}
+#divcontacto #divcontactocontent ul
+{
+	width: 					90%;
+	text-align: 				center;
+	border:					0px solid orange;
+	margin:					0px;
+	list-style: 				none;
+	color:					#325CA6;
+	font-size:				20px;
+}
+#divcontacto #divcontactocontent ul p
+{
+	border:					0px solid orange;	
+	color:					#000000;
+	font-size:				15px;
+	text-align: 				justify;
+	margin:					0 10 0 10;
+	width:					100%;
+}
+#divcontacto #divcontactocontent ul form
+{
+	margin:					0;
+}
+#galelem ul li p img
+{
+	/*width: 450px;
+	height: 250px;*/
+}
+#galelem ul
+{
+	list-style: 				none;
+	
+}
+.ui-accordion
+{
+	width:			90% !important;
+	margin-left:	5% !important;
+	margin-top:	5% !important;
+	margin-bottom:	5% !important;
+	font-family: CraftyGirls !important;
+	font-size: 				20px !important;
+}
+#ligal
+{
+	border: 		3px #AC749C dashed !important;
+	background:		url("images/ui-bg_glass_65_ffffff_1x400.png") repeat #DFECF5;
+	font-family: 	CraftyGirls !important;
+	font-size: 		15px !important;	
+}
+
+#sticker 
+{
+	background: 	#FFFFFF !transparent;
+    color: 			325CA6;      
+    font-family: 	CraftyGirls !important;
+    font-size: 		15px;      
+    text-align: 	center;
+    padding: 		5px;
+    text-shadow: 	0 1px 1px rgba(0,0,0,.2);
+    border-radius: 	50px;
+    z-index: 		1000;
+    cursor:			pointer !important;
+    border:			0px;
+    margin:			0px;
+          
+}
+#parriba
+{
+	background: #C23055;
+	border:			0px;
+    margin:			0px;
+    color: 		#FFFFFF;
+}
